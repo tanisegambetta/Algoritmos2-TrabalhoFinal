@@ -144,10 +144,11 @@ no desenvolvimento da classe ListaEncadeada.
 - Os programas disponibilizados devem ser utilizados para testar a sua 
 implementação.
 
-Formato do Arquivo CSV:
+## Formato do Arquivo CSV:
 
 O arquivo CSV contém os dados de um objeto aluno por linha, separados 
 por vírgula, com os seguintes campos, na ordem que aparecem:
+
 	- Matricula
 	- Nome
 	- Email
