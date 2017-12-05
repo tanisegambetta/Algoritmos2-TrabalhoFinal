@@ -8,7 +8,7 @@ public class ListaEncadeada<T> {
 	{}
 	public void addFirst(T dado)
 	{}
-	public T search(Comparator<T> cmp)
+	public T search(T key, Comparator<T> cmp)
 	{
 		return null;
 	}
