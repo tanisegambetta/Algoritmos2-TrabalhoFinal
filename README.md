@@ -70,7 +70,7 @@ a seguinte interface pública:
 class ListaEncadeada<T> {
 	public void append(T dado);
 	public void addFirst(T dado);
-	public T search(Comparator<T> cmp);
+	public T search(T key, Comparator<T> cmp);
 	public void printObjects();
 	public static ListaEncadeada<T> loadFromFile(InputStream input);
 }
@@ -83,7 +83,7 @@ pública:
 class ListaEncadeada<T> {
 	public void append(T dado);
 	public void addFirst(T dado);
-	public T search(Comparator<T> cmp);
+	public T search(T key, Comparator<T> cmp);
 	public void printObjects();
 	public static ListaEncadeada<T> loadFromFile(InputStream input);
 
@@ -108,7 +108,7 @@ pública:
 class ListaEncadeada<T> {
 	public void append(T dado);
 	public void addFirst(T dado);
-	public T search(Comparator<T> cmp);
+	public T search(T key, Comparator<T> cmp);
 	public void printObjects();
 	public static ListaEncadeada<T> loadFromFile(InputStream input);
 	public ListaEncadeada<T> filter(Filtro<T> filtro);
