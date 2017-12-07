@@ -15,7 +15,7 @@ public class ListaEncadeada<T> {
 	public void printObjects()
 	{}
 	
-	public static <T> ListaEncadeada<T> loadFromFile(FileReader arquivo)
+	public static ListaEncadeada<model.Aluno> loadFromFile(FileReader arquivo)
 	{
 		return null;
 	}

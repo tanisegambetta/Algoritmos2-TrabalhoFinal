@@ -27,13 +27,15 @@ public class ProgramaB_Alunos {
 		}
 		ListaEncadeada<Aluno> lista = ListaEncadeada.loadFromFile(arquivo);
 		
-		System.out.println(lista.search(new SearchByName(name)));
+		Aluno busca = new Aluno(name, email, idade, cidade);
+
+		System.out.println(lista.search(busca, new SearchByName()));
 		lista.removeIf(new NamePredicate(name));
-		if (lista.search(new SearchByName(name)) != null)
+		if (lista.search(busca, new SearchByName()) != null)
 			System.out.println(name + " nao deveria estar na lista.");
 
-		System.out.println(lista.search(new SearchByEmail(email)));
-		System.out.println(lista.search(new SearchByAgeAndCity(idade,cidade)));
+		System.out.println(lista.search(busca, new SearchByEmail()));
+		System.out.println(lista.search(busca, new SearchByAgeAndCity()));
 	}
 
 }
