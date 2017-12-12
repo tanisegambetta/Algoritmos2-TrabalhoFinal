@@ -1,4 +1,4 @@
-package test;
+/*package test;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -39,3 +39,4 @@ public class ProgramaB_Alunos {
 	}
 
 }
+*/
